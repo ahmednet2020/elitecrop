@@ -1,0 +1,362 @@
+/*font style*/
+@font-face {
+  font-family: 'leaguespartan';
+  src: url("../fonts/leaguespartan-bold.ttf") format("truetype"), url("../fonts/leaguespartan-bold.woff") format("woff");
+  font-weight: bold; }
+html,
+body {
+  font-family: sans-serif, leaguespartan;
+  font-size: 16px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+ul {
+  font-family: leaguespartan, sans-serif; }
+
+body {
+  background-color: #fdfdfd; }
+
+/* end font style*/
+* {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container-fluid {
+  padding: 0;
+  overflow: hidden; }
+  .container-fluid h3 {
+    color: #00000c;
+    font-size: 2.5rem;
+    word-break: break-word; }
+    @media (max-width: 575px) {
+      .container-fluid h3 {
+        font-size: 1.5rem; } }
+  .container-fluid p {
+    color: rgba(0, 0, 12, 0.5);
+    word-break: break-word;
+    font-size: 1rem; }
+    @media (max-width: 575px) {
+      .container-fluid p {
+        font-size: 0.7rem; } }
+  .container-fluid .overview button, .container-fluid .pricingtable .card-deck .card .card-body button.btn, .container-fluid .chooseus .row .textcontent .container a.btn, .container-fluid .contact .contactbtn a.btn {
+    font-size: 1.2rem;
+    background-color: #ec1c23;
+    color: #fdfdfd;
+    border-radius: 0;
+    letter-spacing: 0.3rem;
+    border: none;
+    cursor: pointer; }
+  .container-fluid .titlebar {
+    line-height: 1;
+    background-color: #08526d; }
+    .container-fluid .titlebar .row {
+      color: #687074;
+      font-size: 0.7rem;
+      padding: 0.4rem 0; }
+      .container-fluid .titlebar .row i {
+        color: #fdfdfd;
+        margin-right: 0.4rem; }
+      .container-fluid .titlebar .row .btn {
+        background-color: transparent;
+        border: 1px solid #ec1c23;
+        color: #687074;
+        border-radius: 0;
+        font-size: 0.7rem; }
+      .container-fluid .titlebar .row span:hover,
+      .container-fluid .titlebar .row .btn:hover {
+        color: #fdfdfd; }
+  .container-fluid .navbar .navbar-brand {
+    color: #08526d;
+    font-size: 1.4rem; }
+    .container-fluid .navbar .navbar-brand span {
+      color: #ec1c23; }
+  .container-fluid .navbar .navbar-nav {
+    position: relative;
+    min-width: 60%; }
+    .container-fluid .navbar .navbar-nav .bgHover {
+      position: absolute;
+      z-index: -1;
+      background: #08526d;
+      -webkit-transition: all 0.1s linear;
+      -moz-transition: all 0.1s linear;
+      -ms-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+    .container-fluid .navbar .navbar-nav .nav-item {
+      font-size: 0.8rem; }
+      .container-fluid .navbar .navbar-nav .nav-item.active .nav-link, .container-fluid .navbar .navbar-nav .nav-item:hover .nav-link {
+        color: #ec1c23; }
+      .container-fluid .navbar .navbar-nav .nav-item .nav-link {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        color: #08526d; }
+  .container-fluid .slider .carousel-indicators li, .container-fluid .testmontis .carousel-indicators li {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%; }
+    .container-fluid .slider .carousel-indicators li.active, .container-fluid .testmontis .carousel-indicators li.active {
+      background-color: #ec1c23; }
+  .container-fluid .slider {
+    display: block;
+    overflow: hidden; }
+    .container-fluid .slider .carousel-inner h2 {
+      position: absolute;
+      top: 25%;
+      left: 5%;
+      z-index: 1;
+      width: 50%;
+      font-size: 3rem;
+      color: #fdfdfd;
+      line-height: 1.5; }
+      .container-fluid .slider .carousel-inner h2 span {
+        background-color: #ec1c23;
+        padding: 0.5rem;
+        line-height: 1.5; }
+      @media (max-width: 575px) {
+        .container-fluid .slider .carousel-inner h2 {
+          width: 70%;
+          font-size: 1.5rem; } }
+      @media (min-width: 576px) {
+        .container-fluid .slider .carousel-inner h2 {
+          width: 70%;
+          font-size: 2rem; } }
+      @media (min-width: 768px) {
+        .container-fluid .slider .carousel-inner h2 {
+          font-size: 2.5rem; } }
+      @media (min-width: 992px) {
+        .container-fluid .slider .carousel-inner h2 {
+          width: 50%;
+          font-size: 3rem; } }
+    .container-fluid .slider .carousel-inner .carousel-item {
+      background-color: #00000c; }
+      .container-fluid .slider .carousel-inner .carousel-item img {
+        width: 100%;
+        opacity: 0.5;
+        min-height: 450px; }
+  .container-fluid .service .icons .fa {
+    padding: 1.5rem;
+    background-color: #ec1c23;
+    color: #fdfdfd;
+    border-radius: 50%;
+    line-height: 0.5; }
+  .container-fluid .service .icons h5 {
+    color: #08526d; }
+  .container-fluid .service .icons p {
+    font-size: 0.7rem;
+    color: #00000c; }
+  .container-fluid .overview {
+    background-color: rgba(8, 82, 109, 0.1); }
+    .container-fluid .overview span {
+      color: rgba(0, 0, 12, 0.5); }
+    .container-fluid .overview span {
+      letter-spacing: 0.2rem;
+      line-height: 1.5; }
+    .container-fluid .overview button:hover {
+      border-color: #08526d;
+      background-color: #08526d; }
+  .container-fluid .featuredwork .list-group li {
+    padding: 0.5rem 1rem;
+    border: 1px solid #08526d;
+    color: #08526d;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .container-fluid .featuredwork .list-group li.active, .container-fluid .featuredwork .list-group li:hover {
+      background-color: #ec1c23;
+      color: #fdfdfd; }
+  .container-fluid .featuredwork .gallry {
+    min-width: 100%;
+    overflow: hidden; }
+    .container-fluid .featuredwork .gallry div {
+      padding: 0;
+      overflow: hidden; }
+      .container-fluid .featuredwork .gallry div img {
+        width: 100%; }
+  @media (min-width: 576px) {
+    .container-fluid .latestpost .card-deck .card {
+      -ms-flex: 0 0 43%;
+      flex: 0 0 43%;
+      max-width: 43%; } }
+  @media (min-width: 992px) {
+    .container-fluid .latestpost .card-deck .card {
+      -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+      max-width: 30%; } }
+  .container-fluid .latestpost .card-deck .card-body .card-title {
+    margin-bottom: 0;
+    color: #08526d;
+    font-size: 1rem;
+    font-weight: normal; }
+  .container-fluid .latestpost .card-deck .card-body time {
+    color: rgba(0, 0, 12, 0.5); }
+  .container-fluid .latestpost .card-deck .card-body p {
+    line-height: 1.3; }
+  .container-fluid .latestpost .card-deck .card-body .card-link {
+    color: #ec1c23; }
+  .container-fluid .testmontis {
+    display: block;
+    position: relative;
+    background: url(../img/testimonial-bg.jpg) no-repeat fixed;
+    overflow: hidden; }
+    .container-fluid .testmontis .carousel-indicators {
+      bottom: -1.5rem; }
+    .container-fluid .testmontis .ovrlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 12, 0.5);
+      z-index: 1; }
+    .container-fluid .testmontis .carousel-inner {
+      overflow: hidden; }
+      .container-fluid .testmontis .carousel-inner .carousel-item {
+        min-height: 450px;
+        z-index: 5; }
+        .container-fluid .testmontis .carousel-inner .carousel-item .carousel-caption {
+          top: 0;
+          left: 20%;
+          right: 20%;
+          overflow: hidden; }
+          .container-fluid .testmontis .carousel-inner .carousel-item .carousel-caption img {
+            width: 100%;
+            max-width: 100px;
+            max-height: 100px; }
+          .container-fluid .testmontis .carousel-inner .carousel-item .carousel-caption h3,
+          .container-fluid .testmontis .carousel-inner .carousel-item .carousel-caption span,
+          .container-fluid .testmontis .carousel-inner .carousel-item .carousel-caption p {
+            color: #fdfdfd;
+            font-size: 0.8rem; }
+          .container-fluid .testmontis .carousel-inner .carousel-item .carousel-caption h3 {
+            font-size: 1rem; }
+    .container-fluid .testmontis .carousel-control-next,
+    .container-fluid .testmontis .carousel-control-prev {
+      z-index: 15;
+      opacity: 1; }
+      .container-fluid .testmontis .carousel-control-next .bgspan,
+      .container-fluid .testmontis .carousel-control-prev .bgspan {
+        background-color: #00000c;
+        line-height: 0;
+        padding: 1rem; }
+        .container-fluid .testmontis .carousel-control-next .bgspan:hover,
+        .container-fluid .testmontis .carousel-control-prev .bgspan:hover {
+          background-color: #ec1c23; }
+  .container-fluid .pricingtable .jumbotron {
+    background: transparent;
+    padding-bottom: 0; }
+  @media (min-width: 576px) {
+    .container-fluid .pricingtable .card-deck .card {
+      -ms-flex: 0 0 43%;
+      flex: 0 0 43%;
+      max-width: 43%; } }
+  @media (min-width: 992px) {
+    .container-fluid .pricingtable .card-deck .card {
+      -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+      max-width: 30%; } }
+  .container-fluid .pricingtable .card-deck .card:hover .card-body .pric {
+    background: #ec1c23; }
+    .container-fluid .pricingtable .card-deck .card:hover .card-body .pric h3 {
+      color: #fdfdfd; }
+  .container-fluid .pricingtable .card-deck .card:hover .card-body button.btn {
+    background: #08526d; }
+  .container-fluid .pricingtable .card-deck .card .card-header {
+    background: none;
+    border: none; }
+    .container-fluid .pricingtable .card-deck .card .card-header h4 {
+      color: #08526d; }
+  .container-fluid .pricingtable .card-deck .card .card-body .pric {
+    background: rgba(0, 0, 12, 0.1); }
+    .container-fluid .pricingtable .card-deck .card .card-body .pric h3 {
+      color: #08526d;
+      margin: 0; }
+      .container-fluid .pricingtable .card-deck .card .card-body .pric h3 span {
+        font-size: 1rem; }
+  .container-fluid .chooseus .row {
+    background: url(../img/man.jpg) no-repeat left;
+    background-size: 52% 100%; }
+    .container-fluid .chooseus .row .textcontent {
+      background: #08526d; }
+      .container-fluid .chooseus .row .textcontent .container h3, .container-fluid .chooseus .row .textcontent .container p {
+        color: #fdfdfd; }
+      .container-fluid .chooseus .row .textcontent .container a.btn:hover {
+        background: #00000c; }
+  .container-fluid .usersinfo .userinfo i, .container-fluid .usersinfo .userinfo h5 {
+    color: #08526d; }
+  .container-fluid .usersinfo .userinfo p {
+    color: #ec1c23; }
+  .container-fluid .contact {
+    background-color: #ec1c23; }
+    .container-fluid .contact .conteacttext {
+      color: #fff;
+      font-size: 1.5rem; }
+    .container-fluid .contact .contactbtn a.btn {
+      background-color: transparent;
+      border: 1px solid #fdfdfd;
+      font-size: 1rem; }
+      .container-fluid .contact .contactbtn a.btn:hover {
+        background-color: #08526d; }
+  .container-fluid footer .about h5, .container-fluid footer .links h5, .container-fluid footer .contactlist h5 {
+    color: #08526d;
+    font-size: 2rem; }
+  .container-fluid footer .about span {
+    color: #ec1c23; }
+  .container-fluid footer .about a {
+    font-size: 0.9rem;
+    color: #08526d; }
+    .container-fluid footer .about a:before {
+      content: "\f138";
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin-right: 0.5rem; }
+  .container-fluid footer .links ul li {
+    width: 48%; }
+    @media (max-width: 575px) {
+      .container-fluid footer .links ul li {
+        width: 90%; } }
+    .container-fluid footer .links ul li a {
+      font-size: 1rem;
+      color: #08526d;
+      font-family: sans-serif; }
+      .container-fluid footer .links ul li a:before {
+        content: "\f105";
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin-right: 0.5rem; }
+  .container-fluid footer .contactlist a {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #08526d;
+    line-height: 3; }
+  .container-fluid footer .links, .container-fluid footer .contactlist {
+    line-height: 250%; }
+  .container-fluid footer .copyright {
+    border-top: 1px solid rgba(0, 0, 12, 0.5); }
+    .container-fluid footer .copyright ul li {
+      margin: 0 3%; }
+      .container-fluid footer .copyright ul li a {
+        color: rgba(0, 0, 12, 0.5); }
+        .container-fluid footer .copyright ul li a:hover {
+          color: #08526d; }
+
+/*# sourceMappingURL=main.css.map */
